@@ -1,0 +1,68 @@
+{
+    "categories": [{
+            "name":"Grocery",
+            "link":"#Grocery"
+        },
+        {
+            "name":"Mobiles",
+            "link":"#mobiles"
+        },
+        {
+            "name": "Fashion",
+            "link": "#fashion",
+            "subcategories": [
+                {
+                    "name": "Men",
+                    "link": "#men",
+                    "subcategories": [
+                        {"name": "Men's Top Wear", "link": "Men's Top Wear",
+                        "subcategories": [
+                            {"name": "Men's T-shirts", "link": "#T-shirts"},
+                            {"name": "Men's Casual shirts", "link": "#MC"},
+                            {"name": "Formal shirts", "link": "#FS"},
+                            {"name": "Kurtas", "link": "#Kurtas"}
+                        ]
+                    },
+                        {"name": "Men's Bottom", "link": "#Men's Bottom",
+                        "subcategories": [
+                            {"name": "All", "link": "#All"},
+                            {"name": "Jeans", "link": "#Jeans"},
+                            {"name": "Trouser", "link": "#Trouser"},
+                            {"name": "Shorts", "link": "#Shorts"},
+                            {"name": "cargor", "link": "#cargor"}
+                        ]
+                    },
+                        {"name": "Men's Footwear", "link": "#Men's Footwear"},
+                        {"name": "Men's watches", "link": "#Men's watches"},
+                        {"name": "Winter", "link": "#Winter"}
+                        
+                    ]
+                },
+                {
+                    "name": "Women",
+                    "link": "#women",
+                    "subcategories": [
+                        {"name": "Western Wear", "link": "#western-wear"},
+                        {"name": "Ethnic Wear", "link": "#ethnic-wear"}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Electronics",
+            "link": "#electronics",
+            "subcategories": [
+                {"name": "Mobiles", "link": "#mobiles"},
+                {"name": "Laptops", "link": "#laptops"}
+            ]
+        },
+        {
+            "name": "Home Appliances",
+            "link": "#home-appliances",
+            "subcategories": [
+                {"name": "Kitchen Appliances", "link": "#kitchen-appliances"},
+                {"name": "Living Room Appliances", "link": "#living-room-appliances"}
+            ]
+        }
+    ]
+}
